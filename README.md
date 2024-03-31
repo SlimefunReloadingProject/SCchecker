@@ -7,17 +7,16 @@
 
 # 使用方式
 
-1. 你的电脑需要安装了python
-2. 将压缩包中的所有文件解压到 你的服务器的 plugins/SlimeCustomizer
-在下方目录树的情况下也可运行（暂未测试）
-plugins
-  | - SlimeCustomizer
-  | ----- main.py
-  | - Slimefun
-  | ----- Items.yml 
-3. 双击 SC检查器 ，就可以开始快速检查了
+1. 你的电脑需要安装了python3.11或以上
+2. 将全部文件解压到 `plugins/SlimeCustomizer`
+3. 运行 SC检查器 ，就可以开始快速检查了
 等待运行完毕后，会显示出一些潜在bug（若有）
-若遇到无法运行的情况，请确保你的目录在 SlimeCustomizer 内，而不是其他目录！
 
-注意！此检查器不会检查name或lore！
-此外，此脚本的粘液物品检查依赖 Slimefun 的 Items.yml
+> 注意！此检查器不会检查name或lore！
+> 此外，此脚本的粘液物品检查依赖 Slimefun 的 Items.yml
+> 请确保控制台输出的bug（若有）皆已修复，本程序才能正常运行！
+> 需要注意的是，此脚本并不会检查任何与`name`或`lore`相关的内容！
+> 如有误报请联系作者企鹅2793572961
+> 此python程序任何人皆可使用，修改，但不得进行任何商业活动、违反公德的行为或违法行为
+> Made by guguguhello
+>

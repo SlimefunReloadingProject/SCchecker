@@ -1,0 +1,18 @@
+# 跳过哪些检查
+ignores:
+  ignoreScAddon: false
+  ignoreCategories: false
+  ignoreMobDrops: false
+  ignoreGeoResources: false
+  ignoreItems: false
+  ignoreCapacitors: false
+  ignoreMachines: false
+  ignoreGenerators: false
+  ignoreSolarGenerators: false
+  ignoreMaterialGenerators: false
+  ignoreResearches: false
+# 最多打印多少bug
+MaxPrintBug: 5
+# 粘液物品路径（default指向 ../Slimefun/Items.yml）
+#SlimefunItemsPath: 'D:/plugins/Slimefun/Items.yml'
+SlimefunItemsPath: 'default'
