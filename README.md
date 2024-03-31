@@ -8,7 +8,7 @@
 # 使用方式
 
 1. 你的电脑需要安装了python
-2. 将压缩包中的所有文件解压到 plugins/SlimeCustomizer 
+2. 将压缩包中的所有文件解压到 你的服务器的 plugins/SlimeCustomizer 
 3. 双击 SC检查器 ，就可以开始快速检查了
 等待运行完毕后，会显示出一些潜在bug（若有）
 
