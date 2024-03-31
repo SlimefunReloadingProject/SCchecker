@@ -1,0 +1,2 @@
+# SCchecker
+一个用于快速检查SlimeCustomizer配置的脚本
