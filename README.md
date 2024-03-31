@@ -1,11 +1,14 @@
 # SCchecker
 一个用于快速检查SlimeCustomizer配置的脚本  
-作者：balugap
+作者：balugaq
+
+# 特别鸣谢
+特别感谢 haiman 大佬在 github 方面帮助了我
 
 # 使用方式
 
 1. 你的电脑需要安装了python
-2. 将以下文件解压到 SlimeCustomizer
+2. 将以下文件解压到 plugins/SlimeCustomizer
 - __VanillaItems.yml
 - main.py
 - SC检查器(无需开服).bat 
@@ -13,3 +16,4 @@
 等待运行完毕后，会显示出一些潜在bug（若有）
 
 注意！此检查器不会检查name或lore！
+此外，此脚本的粘液物品检查依赖 Slimefun 的 Items.yml
