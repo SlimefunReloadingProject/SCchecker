@@ -212,6 +212,11 @@ def isRecipeProper(data, position):
 def isRunningRecipeProper(data, position):
     recipes = data['recipes']
     for j in recipes:
+        try: 
+            int(j)
+        except TypeError as err:
+            report('recipes ')
+            print(f"{j} 不是有效的配方编号")
         recipe = recipes[j]
         speed = recipe['speed-in-seconds']
         isInt(speed, position+f'第 {j} 个配方的 speed-in-seconds')
@@ -476,7 +481,7 @@ def checkAll():
         start = time()
         try:
             i()
-        except yaml.scanner.ScannerError as err:
+        except (yaml.scanner.ScannerError, yaml.parser.ParserError) as err:
             print('在获取YAML内容时遇到了错误！')
             print('可能是YAML结构错误！请在下方网站内检查')
             print('https://www.bejson.com/validators/yaml_editor/')
