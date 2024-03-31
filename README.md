@@ -1,6 +1,6 @@
 # SCchecker
-一个用于快速检查SlimeCustomizer配置的脚本
-作者：
+一个用于快速检查SlimeCustomizer配置的脚本  
+作者：balugap
 
 # 使用方式
 
