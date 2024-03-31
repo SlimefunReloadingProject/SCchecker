@@ -214,7 +214,7 @@ def isRunningRecipeProper(data, position):
     for j in recipes:
         recipe = recipes[j]
         speed = recipe['speed-in-seconds']
-        isInt(speed, position+'第 {j} 个配方的 speed-in-seconds')
+        isInt(speed, position+f'第 {j} 个配方的 speed-in-seconds')
         Input = recipe['input']
         Output = recipe['output']
         if len(Input) != 2:
