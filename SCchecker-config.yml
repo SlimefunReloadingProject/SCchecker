@@ -1,5 +1,6 @@
 # 跳过哪些检查
 ignores:
+  # 填 true 或 false
   ignoreScAddon: false
   ignoreCategories: false
   ignoreMobDrops: false
@@ -11,8 +12,26 @@ ignores:
   ignoreSolarGenerators: false
   ignoreMaterialGenerators: false
   ignoreResearches: false
+# 扫描哪些文件
+scan-files:
+  # 你应该在这里填路径
+  # ex: ScAddon: ['sc-addon.yml','D:/sc-addon.yml', 'C:/sc.yml'] 
+  # 诸如此类 ↑
+  ScAddon: ['sc-addon.yml']
+  Categories: ['categories.yml']
+  Capacitors: ['capacitors.yml']
+  MobDrops: ['mob-drops.yml']
+  GeoResources: ['geo-resources.yml']
+  Items: ['items.yml']
+  Machines: ['machines.yml']
+  Generators: ['generators.yml']
+  SolarGenerators: ['solar-generators.yml']
+  MaterialGenerators: ['material-generators.yml']
+  Researches: ['researches.yml']
 # 最多打印多少bug
 MaxPrintBug: 100
-# 粘液物品路径（default指向 ../Slimefun/Items.yml）
-#SlimefunItemsPath: 'D:/plugins/Slimefun/Items.yml'
+# 最多打印多少Warn
+MaxPrintWarn: 100
+# 你应该在这里填粘液物品路径（default指向 ../Slimefun/Items.yml）
+# ex: SlimefunItemsPath: 'D:/plugins/Slimefun/Items.yml'
 SlimefunItemsPath: 'default'
