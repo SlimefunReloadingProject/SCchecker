@@ -15,7 +15,7 @@ ignores:
 # 扫描哪些文件
 scan-files:
   # 你应该在这里填路径
-  # ex: ScAddon: ['sc-addon.yml','D:/sc-addon.yml', 'C:/sc.yml'] 
+  # ex: ScAddon: ['sc-addon.yml','D:/sc-addon.yml', 'C:/sc.yml', 'sc-addon2.yml'] 
   # 诸如此类 ↑
   ScAddon: ['sc-addon.yml']
   Categories: ['categories.yml']
