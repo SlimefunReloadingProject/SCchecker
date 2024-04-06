@@ -4,7 +4,9 @@
 
 # 特别鸣谢
 特别感谢 `haiman` 大佬在 `github` 方面帮助了我
-
+> haiman's github home page
+> 
+> https://github.com/haiman233
 # 使用方式
 
 1. 你的电脑需要安装了`python3.11`或以上
