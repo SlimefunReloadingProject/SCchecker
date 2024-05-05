@@ -673,3 +673,4 @@ except BaseException as err:
 '此python程序任何人皆可使用，修改，但不得进行任何商业活动、违反公德的行为或违法行为'
 'Made by guguguhello'
 """
+input("Press Enter to continue...")
